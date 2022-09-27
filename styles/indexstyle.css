@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: white;
 }
 
 #myVideo {
@@ -10,11 +11,29 @@ body{
     min-height: 100%;
   }
 
-h1{
+.titulo{
     color: white;
     text-align: center;
+    margin-top: 1%;
+    font-weight: 600;
+    font-size: 280%;
 }
 
 .content {
     position: relative;
+}
+
+.nav{
+    text-align: center;
+    margin: 1% 5%;
+}
+
+.txt{
+    font-weight: 100;
+    color: white;
+}
+
+.txt:hover{
+    color: white;
+    text-decoration: underline
 }
